@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abertura de Chamados</title>
+    <link rel="stylesheet"  href="./css/Abertura de Chamados.css" />
+    <link 
+    rel="shortcut icon"
+    href="./img/GLPI_Logo-color.png"
+    type="image/x-icon"
+    />
+   
+</head>
+<body>
+
+    <main>
+        <header>
+          <img src="./img/GLPI_Logo-color.png" alt="Logo GLPI" />
+          <h1>Abertuta de Chamados</h1>
+        </header>
+        <section>
+        <br/>
+        <br/>
+        <label for="name">Nome:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Digite seu nome"
+        />
+        <br/>
+        <br/>
+        <label for="type">Tipo:</label>
+        <select id="Type" name="Type">
+          <option value="Incidente">Incidente</option>
+          <option value="Requisição">Requisição</option>
+        </select>
+        <br>
+        <br>
+        <label for="urgency">Urgência:</label>
+        <select id="Urgência" name="Urgência">
+          <option value="Muito baixa">Muito baixa</option>
+          <option value="Baixa">Baixa</option>
+          <option value="Média">Média</option>
+          <option value="Alta">Alta</option>
+          <option value="Muito alta">Muito alta</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="local">Localização:</label>
+        <input
+          type="text"
+          id="Localização"
+          name="Localização"
+          placeholder="Onde se localiza o problema"
+        />
+        <br/>
+        <br/>
+        <label for="description">Descrição:</label>
+        <input
+          type="text"
+          id="Descrição"
+          name="Descrição"
+          placeholder="O que aconteceu?"
+        />
+        <br/>
+        <br/>
+        <label for="phone">Telefone:</label>
+        <input type="number" id="phone" name="phone" min="1" max="100" placeholder="EX: +12(34)56789-0123"/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <label for="Enviar">
+          <a href="./menu.html"><button type="submit">Enviar</button></a>
+         </label>
+    </section>
+        <footer>
+          <label for="Voltar">
+            <a href="./menu.html"><button type="submit">Voltar</button></a>
+           </label>
+            <p>Feito por Débora</p>
+        </footer>
+      </main>
+   
+
+</body>
+</html>
